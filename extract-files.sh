@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=merlin
+DEVICE=merlinx
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks

@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/merlin
+DEVICE_PATH := device/xiaomi/merlinx
 
-TARGET_BOOTLOADER_BOARD_NAME := merlin
+TARGET_BOOTLOADER_BOARD_NAME := merlinx
 
 # Inherit from mt6768-common
 -include device/xiaomi/mt6768-common/BoardConfigCommon.mk
@@ -25,7 +25,7 @@ TARGET_BOOTLOADER_BOARD_NAME := merlin
 TARGET_KERNEL_CONFIG := merlin_defconfig
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := merlin,merlin_eea,merlinnfc
+TARGET_OTA_ASSERT_DEVICE := merlin,merlinx,merlin_eea,merlinnfc
 
 # HIDL
 ODM_MANIFEST_SKUS += \
